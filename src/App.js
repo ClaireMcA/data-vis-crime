@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Circle from './Circle';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Circle number="7"/>
     </div>
   );
 }
