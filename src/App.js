@@ -1,27 +1,85 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { Component } from "react";
 import './App.css';
-import Circle from './Circle';
+// import AutoGrid from './components/Grid';
+import Circle from './components/Circle';
+import DiscreteSliderSteps from './components/Slider';
+import * as Constants from './constants'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Circle number="7"/>
-    </div>
-  );
+
+
+
+class App extends Component {
+  state = {
+    sliderValue: "14_Q1"
+  }
+
+  handleChange = (event) => {
+    const index = event.target.value - 1;
+    const sliderValue = Constants.time[index].label;
+    this.setState({ sliderValue });
+  }
+
+
+
+
+  render () {
+    return (
+      <div>
+        <div>
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="BELCONNEN"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="GUNGAHLIN"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="INNERNORTH"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="INNERSOUTH"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="WESTONCREEK"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="MOLONGLODISTRICT"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="WODENCREEK"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="TUGGERANONGCREEK"
+            />
+            <Circle 
+              sliderValue={this.state.sliderValue}
+              area="MISC"
+            />
+        </div>
+        {/* <div>
+            <Circle size="40"/>
+            <Circle size="20"/>
+            <Circle size="20"/>
+            <Circle size="20"/>
+            <Circle size="20"/>
+        </div> */}
+        <div>
+            <DiscreteSliderSteps 
+              onChange= {this.handleChange}
+            />
+        </div>
+      </div>
+    );
+  }
 }
+
 
 export default App;
