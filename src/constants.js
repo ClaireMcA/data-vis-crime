@@ -182,7 +182,19 @@ export const suburbAreasRef = [
 ]    
 
 
-
+// export const suburbAreasRef = [
+//     {
+//         0: "BELCONNEN",
+//         1: "GUNGAHLIN",
+//         2: "INNERNORTH",
+//         3: "INNERSOUTH",
+//         4: "WESTONCREEK",
+//         5: "MOLONGLODISTRICT",
+//         6: "WODENCREEK",
+//         7: "TUGGERANONGCREEK",
+//         8: "MISC",
+//     }
+// ]    
 
 
 
@@ -524,12 +536,10 @@ export const suburbAreas = [
 
 
 
-
-
-
 export const suburbs = [
     {
-        "ARANDA": [
+        id: "ARANDA",
+        values: [
             {
                 "14_Q1":138,
                 "14_Q2": 154,
@@ -566,7 +576,8 @@ export const suburbs = [
         ]
     },
     {
-        "BELCONNEN": [
+        id: "BELCONNEN",
+        values: [
             {
                 "14_Q1":671,
                 "14_Q2": 584,
@@ -603,7 +614,8 @@ export const suburbs = [
         ]
     },
     {
-        "BRUCE": [
+        id: "BRUCE",
+        values: [
             {
                 "14_Q1":202,
                 "14_Q2": 315,
@@ -640,7 +652,8 @@ export const suburbs = [
         ]
     },
     {
-        "CHARNWOOD": [
+        id: "CHARNWOOD",
+        values: [
             {
                 "14_Q1":94,
                 "14_Q2": 69,
@@ -677,7 +690,8 @@ export const suburbs = [
         ]
     },
     {
-        "COOK": [
+        id: "COOK",
+        values: [
             {
                 "14_Q1":44,
                 "14_Q2": 59,
@@ -714,7 +728,8 @@ export const suburbs = [
         ]
     },
     {
-        "DUNLOP": [
+        id: "DUNLOP",
+        values: [
             {
                 "14_Q1":81,
                 "14_Q2": 63,
@@ -751,7 +766,8 @@ export const suburbs = [
         ]
     },
     {
-        "EVATT": [
+        id: "EVATT",
+        values: [
             {
                 "14_Q1":103,
                 "14_Q2": 93,
@@ -788,7 +804,8 @@ export const suburbs = [
         ]
     },
     {
-        "FLOREY": [
+        id: "FLOREY",
+        values: [
             {
                 "14_Q1":123,
                 "14_Q2": 143,
@@ -825,7 +842,8 @@ export const suburbs = [
         ]
     },
     {
-        "FLYNN": [
+        id: "FLYNN",
+        values: [
             {
                 "14_Q1":42,
                 "14_Q2": 29,
@@ -862,7 +880,8 @@ export const suburbs = [
         ]
     },
     {
-        "FRASER": [
+        id: "FRASER",
+        values: [
             {
                 "14_Q1":29,
                 "14_Q2": 23,
@@ -899,7 +918,8 @@ export const suburbs = [
         ]
     },
     {
-        "GIRALANG": [
+        id: "GIRALANG",
+        values: [
             {
                 "14_Q1":53,
                 "14_Q2": 54,
@@ -936,7 +956,8 @@ export const suburbs = [
         ]
     },
     {
-        "HAWKER": [
+        id: "HAWKER",
+        values: [
             {
                 "14_Q1":96,
                 "14_Q2": 84,
@@ -973,7 +994,8 @@ export const suburbs = [
         ]
     },
     {
-        "HIGGINS": [
+        id: "HIGGINS",
+        values: [
             {
                 "14_Q1":50,
                 "14_Q2": 38,
@@ -1010,7 +1032,8 @@ export const suburbs = [
         ]
     },
     {
-        "HOLT": [
+        id: "HOLT",
+        values: [
             {
                 "14_Q1":160,
                 "14_Q2": 173,
@@ -1047,7 +1070,8 @@ export const suburbs = [
         ]
     },
     {
-        "KALEEN": [
+        id: "KALEEN",
+        values: [
             {
                 "14_Q1":100,
                 "14_Q2": 132,
@@ -1084,7 +1108,8 @@ export const suburbs = [
         ]
     },
     {
-        "LATHAM": [
+        id: "LATHAM",
+        values: [
             {
                 "14_Q1":68,
                 "14_Q2": 38,
@@ -1121,7 +1146,8 @@ export const suburbs = [
         ]
     },
     {
-        "LAWSON": [
+        id: "LAWSON",
+        values: [
             {
                 "14_Q1":10,
                 "14_Q2": 5,
@@ -1158,7 +1184,8 @@ export const suburbs = [
         ]
     },
     {
-        "MACGREGOR": [
+        id: "MACGREGOR",
+        values: [
             {
                 "14_Q1":59,
                 "14_Q2": 63,
@@ -1195,7 +1222,8 @@ export const suburbs = [
         ]
     },
     {
-        "MACQUARIE": [
+        id: "MACQUARIE",
+        values: [
             {
                 "14_Q1":152,
                 "14_Q2": 69,
@@ -1232,7 +1260,8 @@ export const suburbs = [
         ]
     },
     {
-        "MCKELLAR": [
+        id: "MCKELLAR",
+        values: [
             {
                 "14_Q1":35,
                 "14_Q2": 46,
@@ -1269,7 +1298,8 @@ export const suburbs = [
         ]
     },
     {
-        "MELBA": [
+        id: "MELBA",
+        values: [
             {
                 "14_Q1":50,
                 "14_Q2": 62,
@@ -1306,7 +1336,8 @@ export const suburbs = [
         ]
     },
     {
-        "PAGE": [
+        id: "PAGE",
+        values: [
             {
                 "14_Q1":63,
                 "14_Q2": 45,
@@ -1343,7 +1374,8 @@ export const suburbs = [
         ]
     },
     {
-        "SCULLIN": [
+        id: "SCULLIN",
+        values: [
             {
                 "14_Q1":35,
                 "14_Q2": 41,
@@ -1380,7 +1412,8 @@ export const suburbs = [
         ]
     },
     {
-        "SPENCE": [
+        id: "SPENCE",
+        values: [
             {
                 "14_Q1":88,
                 "14_Q2": 34,
@@ -1417,7 +1450,8 @@ export const suburbs = [
         ]
     },
     {
-        "WEETANGERA": [
+        id: "WEETANGERA",
+        values: [
             {
                 "14_Q1":31,
                 "14_Q2": 17,
@@ -1454,7 +1488,8 @@ export const suburbs = [
         ]
     },
     {
-        "AMAROO": [
+        id: "AMAROO",
+        values: [
             {
                 "14_Q1":48,
                 "14_Q2": 37,
@@ -1491,7 +1526,8 @@ export const suburbs = [
         ]
     },
     {
-        "BONNER": [
+        id: "BONNER",
+        values: [
             {
                 "14_Q1":65,
                 "14_Q2": 52,
@@ -1528,7 +1564,8 @@ export const suburbs = [
         ]
     },
     {
-        "CASEY": [
+        id: "CASEY",
+        values: [
             {
                 "14_Q1":43,
                 "14_Q2": 55,
@@ -1565,7 +1602,8 @@ export const suburbs = [
         ]
     },
     {
-        "CRACE": [
+        id: "CRACE",
+        values: [
             {
                 "14_Q1":37,
                 "14_Q2": 50,
@@ -1602,7 +1640,8 @@ export const suburbs = [
         ]
     },
     {
-        "FORDE": [
+        id: "FORDE",
+        values: [
             {
                 "14_Q1":23,
                 "14_Q2": 26,
@@ -1639,7 +1678,8 @@ export const suburbs = [
         ]
     },
     {
-        "FRANKLIN": [
+        id: "FRANKLIN",
+        values: [
             {
                 "14_Q1":94,
                 "14_Q2": 93,
@@ -1676,7 +1716,8 @@ export const suburbs = [
         ]
     },
     {
-        "GUNGAHLIN": [
+        id: "GUNGAHLIN",
+        values: [
             {
                 "14_Q1":296,
                 "14_Q2": 254,
@@ -1713,7 +1754,8 @@ export const suburbs = [
         ]
     },
     {
-        "HALL": [
+        id: "HALL",
+        values: [
             {
                 "14_Q1":7,
                 "14_Q2": 11,
@@ -1750,7 +1792,8 @@ export const suburbs = [
         ]
     },
     {
-        "HARRISON": [
+        id: "HARRISON",
+        values: [
             {
                 "14_Q1":102,
                 "14_Q2": 97,
@@ -1787,7 +1830,8 @@ export const suburbs = [
         ]
     },
     {
-        "JACKA": [
+        id: "JACKA",
+        values: [
             {
                 "14_Q1":1,
                 "14_Q2": 5,
@@ -1824,7 +1868,8 @@ export const suburbs = [
         ]
     },
     {
-        "KENNY": [
+        id: "KENNY",
+        values: [
             {
                 "14_Q1":3,
                 "14_Q2": 23,
@@ -1861,7 +1906,8 @@ export const suburbs = [
         ]
     },
     {
-        "KINLYSIDE": [
+        id: "KINLYSIDE",
+        values: [
             {
                 "14_Q1":0,
                 "14_Q2": 0,
@@ -1898,7 +1944,8 @@ export const suburbs = [
         ]
     },
     {
-        "MITCHELL": [
+        id: "MITCHELL",
+        values: [
             {
                 "14_Q1":130,
                 "14_Q2": 105,
@@ -1935,7 +1982,8 @@ export const suburbs = [
         ]
     },
     {
-        "MONCRIEFF": [
+        id: "MONCRIEFF",
+        values: [
             {
                 "14_Q1":0,
                 "14_Q2": 0,
@@ -1972,7 +2020,8 @@ export const suburbs = [
         ]
     },
     {
-        "NGUNNAWAL": [
+        id: "NGUNNAWAL",
+        values: [
             {
                 "14_Q1":98,
                 "14_Q2": 97,
@@ -2009,7 +2058,8 @@ export const suburbs = [
         ]
     },
     {
-        "NICHOLLS": [
+        id: "NICHOLLS",
+        values: [
             {
                 "14_Q1":87,
                 "14_Q2": 110,
@@ -2046,7 +2096,8 @@ export const suburbs = [
         ]
     },
     {
-        "PALMERSTON": [
+        id: "PALMERSTON",
+        values: [
             {
                 "14_Q1":55,
                 "14_Q2": 61,
@@ -2083,7 +2134,8 @@ export const suburbs = [
         ]
     },
     {
-        "TAYLOR": [
+        id: "TAYLOR",
+        values: [
             {
                 "14_Q1":0,
                 "14_Q2": 0,
@@ -2120,7 +2172,8 @@ export const suburbs = [
         ]
     },
     {
-        "THROSBY": [
+        id: "THROSBY",
+        values: [
             {
                 "14_Q1":0,
                 "14_Q2": 1,
@@ -2157,7 +2210,8 @@ export const suburbs = [
         ]
     },
     {
-        "ACTON": [
+        id: "ACTON",
+        values: [
             {
                 "14_Q1":141,
                 "14_Q2": 146,
@@ -2194,7 +2248,8 @@ export const suburbs = [
         ]
     },
     {
-        "AINSLIE": [
+        id: "AINSLIE",
+        values: [
             {
                 "14_Q1":85,
                 "14_Q2": 106,
@@ -2231,7 +2286,8 @@ export const suburbs = [
         ]
     },
     {
-        "BLACK MOUNTAIN": [
+        id: "BLACK MOUNTAIN",
+        values: [
             {
                 "14_Q1":0,
                 "14_Q2": 0,
@@ -2268,7 +2324,8 @@ export const suburbs = [
         ]
     },
     {
-        "BRADDON": [
+        id: "BRADDON",
+        values: [
             {
                 "14_Q1":254,
                 "14_Q2": 287,
@@ -2305,7 +2362,8 @@ export const suburbs = [
         ]
     },
     {
-        "CAMPBELL": [
+        id: "CAMPBELL",
+        values: [
             {
                 "14_Q1":71,
                 "14_Q2": 70,
@@ -2342,7 +2400,8 @@ export const suburbs = [
         ]
     },
     {
-        "CITY": [
+        id: "CITY",
+        values: [
             {
                 "14_Q1":1383,
                 "14_Q2": 936,
@@ -2379,7 +2438,8 @@ export const suburbs = [
         ]
     },
     {
-        "DICKSON": [
+        id: "DICKSON",
+        values: [
             {
                 "14_Q1":242,
                 "14_Q2": 283,
@@ -2416,7 +2476,8 @@ export const suburbs = [
         ]
     },
     {
-        "DOWNER": [
+        id: "DOWNER",
+        values: [
             {
                 "14_Q1":62,
                 "14_Q2": 46,
@@ -2453,7 +2514,8 @@ export const suburbs = [
         ]
     },
     {
-        "DUNTROON": [
+        id: "DUNTROON",
+        values: [
             {
                 "14_Q1":1,
                 "14_Q2": 2,
@@ -2490,7 +2552,8 @@ export const suburbs = [
         ]
     },
     {
-        "HACKETT": [
+        id: "HACKETT",
+        values: [
             {
                 "14_Q1":25,
                 "14_Q2": 26,
@@ -2527,7 +2590,8 @@ export const suburbs = [
         ]
     },
     {
-        "LYNEHAM": [
+        id: "LYNEHAM",
+        values: [
             {
                 "14_Q1":254,
                 "14_Q2": 248,
@@ -2564,7 +2628,8 @@ export const suburbs = [
         ]
     },
     {
-        "MAJURA": [
+        id: "MAJURA",
+        values: [
             {
                 "14_Q1":83,
                 "14_Q2": 35,
@@ -2601,7 +2666,8 @@ export const suburbs = [
         ]
     },
     {
-        "O'CONNOR": [
+        id: "O'CONNOR",
+        values: [
             {
                 "14_Q1":154,
                 "14_Q2": 135,
@@ -2638,7 +2704,8 @@ export const suburbs = [
         ]
     },
     {
-        "PARKES": [
+        id: "PARKES",
+        values: [
             {
                 "14_Q1":75,
                 "14_Q2": 59,
@@ -2675,7 +2742,8 @@ export const suburbs = [
         ]
     },
     {
-        "REID": [
+        id: "REID",
+        values: [
             {
                 "14_Q1":103,
                 "14_Q2": 78,
@@ -2712,7 +2780,8 @@ export const suburbs = [
         ]
     },
     {
-        "RUSSELL": [
+        id: "RUSSELL",
+        values: [
             {
                 "14_Q1":33,
                 "14_Q2": 27,
@@ -2749,7 +2818,8 @@ export const suburbs = [
         ]
     },
     {
-        "TURNER": [
+        id: "TURNER",
+        values: [
             {
                 "14_Q1":122,
                 "14_Q2": 103,
@@ -2786,7 +2856,8 @@ export const suburbs = [
         ]
     },
     {
-        "WATSON": [
+        id: "WATSON",
+        values: [
             {
                 "14_Q1":84,
                 "14_Q2": 82,
@@ -2823,7 +2894,8 @@ export const suburbs = [
         ]
     },
     {
-        "BARTON": [
+        id: "BARTON",
+        values: [
             {
                 "14_Q1":158,
                 "14_Q2": 183,
@@ -2860,7 +2932,8 @@ export const suburbs = [
         ]
     },
     {
-        "BEARD": [
+        id: "BEARD",
+        values: [
             {
                 "14_Q1":8,
                 "14_Q2": 3,
@@ -2897,7 +2970,8 @@ export const suburbs = [
         ]
     },
     {
-        "CAPITAL HILL": [
+        id: "CAPITAL HILL",
+        values: [
             {
                 "14_Q1":6,
                 "14_Q2": 5,
@@ -2934,7 +3008,8 @@ export const suburbs = [
         ]
     },
     {
-        "DEAKIN": [
+        id: "DEAKIN",
+        values: [
             {
                 "14_Q1":93,
                 "14_Q2": 83,
@@ -2971,7 +3046,8 @@ export const suburbs = [
         ]
     },
     {
-        "FORREST": [
+        id: "FORREST",
+        values: [
             {
                 "14_Q1":43,
                 "14_Q2": 32,
@@ -3008,7 +3084,8 @@ export const suburbs = [
         ]
     },
     {
-        "FYSHWICK": [
+        id: "FYSHWICK",
+        values: [
             {
                 "14_Q1":259,
                 "14_Q2": 181,
@@ -3045,7 +3122,8 @@ export const suburbs = [
         ]
     },
     {
-        "GRIFFITH": [
+        id: "GRIFFITH",
+        values: [
             {
                 "14_Q1":175,
                 "14_Q2": 152,
@@ -3082,7 +3160,8 @@ export const suburbs = [
         ]
     },
     {
-        "HARMAN": [
+        id: "HARMAN",
+        values: [
             {
                 "14_Q1":5,
                 "14_Q2": 10,
@@ -3119,7 +3198,8 @@ export const suburbs = [
         ]
     },
     {
-        "KINGSTON": [
+        id: "KINGSTON",
+        values: [
             {
                 "14_Q1":73,
                 "14_Q2": 166,
@@ -3156,7 +3236,8 @@ export const suburbs = [
         ]
     },
     {
-        "NARRABUNDAH": [
+        id: "NARRABUNDAH",
+        values: [
             {
                 "14_Q1":119,
                 "14_Q2": 213,
@@ -3193,7 +3274,8 @@ export const suburbs = [
         ]
     },
     {
-        "OAKS ESTATE": [
+        id: "OAKS ESTATE",
+        values: [
             {
                 "14_Q1":13,
                 "14_Q2": 11,
@@ -3230,7 +3312,8 @@ export const suburbs = [
         ]
     },
     {
-        "PIALLIGO": [
+        id: "PIALLIGO",
+        values: [
             {
                 "14_Q1":25,
                 "14_Q2": 23,
@@ -3267,7 +3350,8 @@ export const suburbs = [
         ]
     },
     {
-        "RED HILL": [
+        id: "RED HILL",
+        values: [
             {
                 "14_Q1":79,
                 "14_Q2": 70,
@@ -3304,7 +3388,8 @@ export const suburbs = [
         ]
     },
     {
-        "SYMONSTON": [
+        id: "SYMONSTON",
+        values: [
             {
                 "14_Q1":38,
                 "14_Q2": 53,
@@ -3341,7 +3426,8 @@ export const suburbs = [
         ]
     },
     {
-        "YARRALUMLA": [
+        id: "YARRALUMLA",
+        values: [
             {
                 "14_Q1":96,
                 "14_Q2": 91,
@@ -3378,7 +3464,8 @@ export const suburbs = [
         ]
     },
     {
-        "CHAPMAN": [
+        id: "CHAPMAN",
+        values: [
             {
                 "14_Q1":20,
                 "14_Q2": 16,
@@ -3415,7 +3502,8 @@ export const suburbs = [
         ]
     },
     {
-        "DUFFY": [
+        id: "DUFFY",
+        values: [
             {
                 "14_Q1":41,
                 "14_Q2": 26,
@@ -3452,7 +3540,8 @@ export const suburbs = [
         ]
     },
     {
-        "FISHER": [
+        id: "FISHER",
+        values: [
             {
                 "14_Q1":23,
                 "14_Q2": 37,
@@ -3489,7 +3578,8 @@ export const suburbs = [
         ]
     },
     {
-        "HOLDER": [
+        id: "HOLDER",
+        values: [
             {
                 "14_Q1":48,
                 "14_Q2": 23,
@@ -3526,7 +3616,8 @@ export const suburbs = [
         ]
     },
     {
-        "RIVETT": [
+        id: "RIVETT",
+        values: [
             {
                 "14_Q1":33,
                 "14_Q2": 38,
@@ -3563,7 +3654,8 @@ export const suburbs = [
         ]
     },
     {
-        "STIRLING": [
+        id: "STIRLING",
+        values: [
             {
                 "14_Q1":23,
                 "14_Q2": 34,
@@ -3600,7 +3692,8 @@ export const suburbs = [
         ]
     },
     {
-        "STROMLO": [
+        id: "STROMLO",
+        values: [
             {
                 "14_Q1":19,
                 "14_Q2": 31,
@@ -3637,7 +3730,8 @@ export const suburbs = [
         ]
     },
     {
-        "WARAMANGA": [
+        id: "WARAMANGA",
+        values: [
             {
                 "14_Q1":44,
                 "14_Q2": 40,
@@ -3674,7 +3768,8 @@ export const suburbs = [
         ]
     },
     {
-        "WESTON": [
+        id: "WESTON",
+        values: [
             {
                 "14_Q1":153,
                 "14_Q2": 116,
@@ -3711,7 +3806,8 @@ export const suburbs = [
         ]
     },
     {
-        "COOMBS": [
+        id: "COOMBS",
+        values: [
             {
                 "14_Q1":2,
                 "14_Q2": 2,
@@ -3748,7 +3844,8 @@ export const suburbs = [
         ]
     },
     {
-        "DENMAN PROSPECT": [
+        id: "DENMAN PROSPECT",
+        values: [
             {
                 "14_Q1":0,
                 "14_Q2": 0,
@@ -3785,7 +3882,8 @@ export const suburbs = [
         ]
     },
     {
-        "MOLONGLO": [
+        id: "MOLONGLO",
+        values: [
             {
                 "14_Q1":0,
                 "14_Q2": 1,
@@ -3822,7 +3920,8 @@ export const suburbs = [
         ]
     },
     {
-        "WRIGHT": [
+        id: "WRIGHT",
+        values: [
             {
                 "14_Q1":11,
                 "14_Q2": 12,
@@ -3859,7 +3958,8 @@ export const suburbs = [
         ]
     },
     {
-        "CHIFLEY": [
+        id: "CHIFLEY",
+        values: [
             {
                 "14_Q1":27,
                 "14_Q2": 64,
@@ -3896,7 +3996,8 @@ export const suburbs = [
         ]
     },
     {
-        "CURTIN": [
+        id: "CURTIN",
+        values: [
             {
                 "14_Q1":135,
                 "14_Q2": 168,
@@ -3933,7 +4034,8 @@ export const suburbs = [
         ]
     },
     {
-        "FARRER": [
+        id: "FARRER",
+        values: [
             {
                 "14_Q1":25,
                 "14_Q2": 54,
@@ -3970,7 +4072,8 @@ export const suburbs = [
         ]
     },
     {
-        "GARRAN": [
+        id: "GARRAN",
+        values: [
             {
                 "14_Q1":123,
                 "14_Q2": 81,
@@ -4007,7 +4110,8 @@ export const suburbs = [
         ]
     },
     {
-        "HUGHES": [
+        id: "HUGHES",
+        values: [
             {
                 "14_Q1":35,
                 "14_Q2": 32,
@@ -4044,7 +4148,8 @@ export const suburbs = [
         ]
     },
     {
-        "ISAACS": [
+        id: "ISAACS",
+        values: [
             {
                 "14_Q1":32,
                 "14_Q2": 28,
@@ -4081,7 +4186,8 @@ export const suburbs = [
         ]
     },
     {
-        "LYONS": [
+        id: "LYONS",
+        values: [
             {
                 "14_Q1":72,
                 "14_Q2": 100,
@@ -4118,7 +4224,8 @@ export const suburbs = [
         ]
     },
     {
-        "MAWSON": [
+        id: "MAWSON",
+        values: [
             {
                 "14_Q1":87,
                 "14_Q2": 86,
@@ -4155,7 +4262,8 @@ export const suburbs = [
         ]
     },
     {
-        "O'MALLEY": [
+        id: "O'MALLEY",
+        values: [
             {
                 "14_Q1":10,
                 "14_Q2": 8,
@@ -4192,7 +4300,8 @@ export const suburbs = [
         ]
     },
     {
-        "PEARCE": [
+        id: "PEARCE",
+        values: [
             {
                 "14_Q1":26,
                 "14_Q2": 51,
@@ -4229,7 +4338,8 @@ export const suburbs = [
         ]
     },
     {
-        "PHILLIP": [
+        id: "PHILLIP",
+        values: [
             {
                 "14_Q1":293,
                 "14_Q2": 289,
@@ -4266,7 +4376,8 @@ export const suburbs = [
         ]
     },
     {
-        "TORRENS": [
+        id: "TORRENS",
+        values: [
             {
                 "14_Q1":18,
                 "14_Q2": 22,
@@ -4303,7 +4414,8 @@ export const suburbs = [
         ]
     },
     {
-        "BANKS": [
+        id: "BANKS",
+        values: [
             {
                 "14_Q1":48,
                 "14_Q2": 47,
@@ -4340,7 +4452,8 @@ export const suburbs = [
         ]
     },
     {
-        "BONYTHON": [
+        id: "BONYTHON",
+        values: [
             {
                 "14_Q1":60,
                 "14_Q2": 85,
@@ -4377,7 +4490,8 @@ export const suburbs = [
         ]
     },
     {
-        "CALWELL": [
+        id: "CALWELL",
+        values: [
             {
                 "14_Q1":83,
                 "14_Q2": 139,
@@ -4414,7 +4528,8 @@ export const suburbs = [
         ]
     },
     {
-        "CHISHOLM": [
+        id: "CHISHOLM",
+        values: [
             {
                 "14_Q1":115,
                 "14_Q2": 126,
@@ -4451,7 +4566,8 @@ export const suburbs = [
         ]
     },
     {
-        "CONDER": [
+        id: "CONDER",
+        values: [
             {
                 "14_Q1":85,
                 "14_Q2": 96,
@@ -4488,7 +4604,8 @@ export const suburbs = [
         ]
     },
     {
-        "FADDEN": [
+        id: "FADDEN",
+        values: [
             {
                 "14_Q1":25,
                 "14_Q2": 36,
@@ -4525,7 +4642,8 @@ export const suburbs = [
         ]
     },
     {
-        "GILMORE": [
+        id: "GILMORE",
+        values: [
             {
                 "14_Q1":43,
                 "14_Q2": 59,
@@ -4562,7 +4680,8 @@ export const suburbs = [
         ]
     },
     {
-        "GORDON": [
+        id: "GORDON",
+        values: [
             {
                 "14_Q1":74,
                 "14_Q2": 74,
@@ -4599,7 +4718,8 @@ export const suburbs = [
         ]
     },
     {
-        "GOWRIE": [
+        id: "GOWRIE",
+        values: [
             {
                 "14_Q1":85,
                 "14_Q2": 96,
@@ -4636,7 +4756,8 @@ export const suburbs = [
         ]
     },
     {
-        "GREENWAY": [
+        id: "GREENWAY",
+        values: [
             {
                 "14_Q1":307,
                 "14_Q2": 258,
@@ -4673,7 +4794,8 @@ export const suburbs = [
         ]
     },
     {
-        "ISABELLA PLAINS": [
+        id: "ISABELLA PLAINS",
+        values: [
             {
                 "14_Q1":69,
                 "14_Q2": 100,
@@ -4710,7 +4832,8 @@ export const suburbs = [
         ]
     },
     {
-        "KAMBAH": [
+        id: "KAMBAH",
+        values: [
             {
                 "14_Q1":308,
                 "14_Q2": 259,
@@ -4747,7 +4870,8 @@ export const suburbs = [
         ]
     },
     {
-        "MACARTHUR": [
+        id: "MACARTHUR",
+        values: [
             {
                 "14_Q1":17,
                 "14_Q2": 18,
@@ -4784,7 +4908,8 @@ export const suburbs = [
         ]
     },
     {
-        "MONASH": [
+        id: "MONASH",
+        values: [
             {
                 "14_Q1":95,
                 "14_Q2": 82,
@@ -4821,7 +4946,8 @@ export const suburbs = [
         ]
     },
     {
-        "OXLEY": [
+        id: "OXLEY",
+        values: [
             {
                 "14_Q1":28,
                 "14_Q2": 25,
@@ -4858,7 +4984,8 @@ export const suburbs = [
         ]
     },
     {
-        "RICHARDSON": [
+        id: "RICHARDSON",
+        values: [
             {
                 "14_Q1":85,
                 "14_Q2": 67,
@@ -4895,7 +5022,8 @@ export const suburbs = [
         ]
     },
     {
-        "THEODORE": [
+        id: "THEODORE",
+        values: [
             {
                 "14_Q1":51,
                 "14_Q2": 53,
@@ -4932,7 +5060,8 @@ export const suburbs = [
         ]
     },
     {
-        "WANNIASSA": [
+        id: "WANNIASSA",
+        values: [
             {
                 "14_Q1":278,
                 "14_Q2": 249,
@@ -4969,7 +5098,8 @@ export const suburbs = [
         ]
     },
     {
-        "HUME": [
+        id: "HUME",
+        values: [
             {
                 "14_Q1":92,
                 "14_Q2": 114,
@@ -5006,118 +5136,8 @@ export const suburbs = [
         ]
     },
     {
-        "THEODORE": [
-            {
-                "14_Q1":51,
-                "14_Q2": 53,
-                "14_Q3": 64,
-                "14_Q4": 57,
-                "15_Q1": 42,
-                "15_Q2": 50,
-                "15_Q3": 66,
-                "15_Q4": 63,
-                "16_Q1": 32,
-                "16_Q2": 58,
-                "16_Q3": 59,
-                "16_Q4": 50,
-                "17_Q1": 45,
-                "17_Q2": 48,
-                "17_Q3": 50,
-                "17_Q4": 51,
-                "18_Q1": 27,
-                "18_Q2": 47,
-                "18_Q3": 33,
-                "18_Q4": 30,
-                "19_Q1": 45,
-                "19_Q2": 58,
-                "19_Q3": 36,
-                "19_Q4": 54,
-                "20_Q1": 33,
-                "20_Q2": 30,
-                "20_Q3": 39,
-                "20_Q4": 38,
-                "21_Q1": 35,
-                "21_Q2": 36,
-                "21_Q3": 40,
-            }
-        ]
-    },
-    {
-        "WANNIASSA": [
-            {
-                "14_Q1":278,
-                "14_Q2": 249,
-                "14_Q3": 270,
-                "14_Q4": 279,
-                "15_Q1": 202,
-                "15_Q2": 248,
-                "15_Q3": 240,
-                "15_Q4": 243,
-                "16_Q1": 256,
-                "16_Q2": 261,
-                "16_Q3": 237,
-                "16_Q4": 240,
-                "17_Q1": 278,
-                "17_Q2": 285,
-                "17_Q3": 263,
-                "17_Q4": 180,
-                "18_Q1": 218,
-                "18_Q2": 227,
-                "18_Q3": 168,
-                "18_Q4": 208,
-                "19_Q1": 187,
-                "19_Q2": 166,
-                "19_Q3": 220,
-                "19_Q4": 159,
-                "20_Q1": 205,
-                "20_Q2": 184,
-                "20_Q3": 149,
-                "20_Q4": 159,
-                "21_Q1": 144,
-                "21_Q2": 122,
-                "21_Q3": 115,
-            }
-        ]
-    },
-    {
-        "HUME": [
-            {
-                "14_Q1":92,
-                "14_Q2": 114,
-                "14_Q3": 141,
-                "14_Q4": 75,
-                "15_Q1": 73,
-                "15_Q2": 108,
-                "15_Q3": 111,
-                "15_Q4": 92,
-                "16_Q1": 113,
-                "16_Q2": 114,
-                "16_Q3": 105,
-                "16_Q4": 87,
-                "17_Q1": 61,
-                "17_Q2": 158,
-                "17_Q3": 76,
-                "17_Q4": 78,
-                "18_Q1": 91,
-                "18_Q2": 114,
-                "18_Q3": 134,
-                "18_Q4": 91,
-                "19_Q1": 118,
-                "19_Q2": 74,
-                "19_Q3": 102,
-                "19_Q4": 67,
-                "20_Q1": 76,
-                "20_Q2": 198,
-                "20_Q3": 88,
-                "20_Q4": 71,
-                "21_Q1": 94,
-                "21_Q2": 106,
-                "21_Q3": 45,
-            }
-        ]
-    },
-    {
-        "THARWA": [
+        id: "THARWA",
+        values: [
             {
                 "14_Q1":1,
                 "14_Q2": 5,
@@ -5154,7 +5174,8 @@ export const suburbs = [
         ]
     },
     {
-        "URIARRA": [
+        id: "URIARRA",
+        values: [
             {
                 "14_Q1":12,
                 "14_Q2": 9,
@@ -5191,7 +5212,8 @@ export const suburbs = [
         ]
     },
     {
-        "WILLIAMSDALE": [
+        id: "WILLIAMSDALE",
+        values: [
             {
                 "14_Q1":1,
                 "14_Q2": 4,
@@ -5226,5 +5248,6 @@ export const suburbs = [
                 "21_Q3": 5,
             }
         ]
-    }
+    },
+
 ]

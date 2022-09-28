@@ -12,23 +12,41 @@ import * as Constant from '../constants'
 // );
 // console.log(Constant.suburbAreas[0]["BELCONNEN"][0]["14_Q3"])
 
-export default class Circle extends Component {
+export default class AreaCircle extends Component {
     
   findValue = () => {
-    const myArea = this.props["area"];
-    const state = this.props["sliderValue"];
-    const ref = Constant.suburbAreasRef[0][myArea];
+    // const myArea = this.props["area"];
+    // const state = this.props["sliderValue"];
+    // const ref = Constant.suburbAreasRef[0][myArea];
     // console.log(ref);
+    // // console.log(state);
+    // const array = Constant.suburbAreas[myArea][ref][0][state];
+    // // console.log(array);
+
+    // // Constant.suburbAreas[0]["Belconnen"][0][14_Q1]
+
+    // const value = (array / 3172) * 100
+    // return value;
+
+
+    // const myArea = this.props["area"];
+    const state = this.props["sliderValue"];
+    const ref = this.props.id;
+    // const ref = Constant.suburbAreasRef[0][myArea];
+    console.log(Constant.suburbs);
     // console.log(state);
-    const array = Constant.suburbAreas[ref][myArea][0][state];
-    // console.log(Constant.suburbs);
+    // const array = Constant.suburbs[ref][myArea][0][state];
+    const array = Constant.suburbs[ref].values[0][state]
+    // console.log();
     
 
-    const value = (array / 3172) * 100
+    const value = (array / 867) * 100
     return value;
+
+
   }
   
-
+  
 
   render() {
     return (
