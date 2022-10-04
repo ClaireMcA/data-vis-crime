@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.circle-container {
+  height: 100;
+  width: 100;
+  transition: all 1s ease;
+}
+
+.Area {
+  width: 100vw;
+}
+
+.Area div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  /* height: 300px;
+  width: 300px; */
+}
+
+.MuiSlider-sizeMedium {
+  /* display: flex; */
+  justify-content: space-around;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}

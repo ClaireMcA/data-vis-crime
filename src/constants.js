@@ -200,7 +200,8 @@ export const suburbAreasRef = [
 
 export const suburbAreas = [
     {
-        "BELCONNEN": [
+        id: "BELCONNEN",
+        values: [
             {
                 "14_Q1":2577,
                 "14_Q2": 2433,
@@ -237,7 +238,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "GUNGAHLIN": [
+        id: "GUNGAHLIN",
+        values: [
             {
                 "14_Q1":1089,
                 "14_Q2": 1077,
@@ -274,7 +276,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "INNERNORTH": [
+        id: "INNERNORTH",
+        values: [
             {
                 "14_Q1":3172,
                 "14_Q2": 2669,
@@ -311,7 +314,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "INNERSOUTH": [
+        id: "INNERSOUTH",
+        values: [
             {
                 "14_Q1":1190,
                 "14_Q2": 1276,
@@ -348,7 +352,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "WESTONCREEK": [
+        id: "WESTONCREEK",
+        values: [
             {
                 "14_Q1":404,
                 "14_Q2": 361,
@@ -385,7 +390,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "MOLONGLODISTRICT": [
+        id: "MOLONGLODISTRICT",
+        values: [
             {
                 "14_Q1":13,
                 "14_Q2": 15,
@@ -422,7 +428,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "WODENCREEK": [
+        id: "WODENCREEK",
+        values: [
             {
                 "14_Q1":883,
                 "14_Q2": 983,
@@ -459,7 +466,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "TUGGERANONGCREEK": [
+        id: "TUGGERANONGCREEK",
+        values: [
             {
                 "14_Q1":1856,
                 "14_Q2": 1869,
@@ -496,7 +504,8 @@ export const suburbAreas = [
         ]
     },
     {
-        "MISC": [
+        id: "MISC",
+        values: [
             {
                 "14_Q1":106,
                 "14_Q2": 132,
@@ -541,7 +550,7 @@ export const suburbs = [
         id: "ARANDA",
         values: [
             {
-                "14_Q1":138,
+                "14_Q1": 138,
                 "14_Q2": 154,
                 "14_Q3": 169,
                 "14_Q4": 181,

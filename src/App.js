@@ -43,42 +43,42 @@ class App extends Component {
   render () {
     return (
       <div>
-        <div className="BelconnenArea">
+        <div className="Belconnen Area">
           <h1>Belconnen Area</h1>
           {this.renderCircles(0, 24)}
         </div>
-        <div className="GungahlinArea">
+        {/* <div className="Gungahlin Area">
           <h1>Gungahlin Area</h1>
           {this.renderCircles(25, 43)}
         </div>
-        <div className="InnerNorthArea">
+        <div className="InnerNorth Area">
           <h1>Inner North Area</h1>
           {this.renderCircles(44, 61)}
         </div>
-        <div className="InnerSouthArea">
+        <div className="InnerSouth Area">
           <h1>Inner South Area</h1>
           {this.renderCircles(62, 76)}
         </div>
-        <div className="WestonCreekArea">
+        <div className="WestonCreek Area">
           <h1>Weston Creek Area</h1>
           {this.renderCircles(77, 85)}
         </div>
-        <div className="MolongloArea">
+        <div className="Molonglo Area">
           <h1>Molonglo Area</h1>
           {this.renderCircles(86, 89)}
         </div>
-        <div className="WodenCreekArea">
+        <div className="WodenCreek Area">
           <h1>Woden Creek Area</h1>
           {this.renderCircles(90, 101)}
         </div>
-        <div className="TuggeranongArea">
+        <div className="Tuggeranong Area">
           <h1>Tuggeranong Area</h1>
           {this.renderCircles(102, 119)}
         </div>
-        <div className="MiscArea">
+        <div className="Misc Area">
           <h1>Misc Areas</h1>
           {this.renderCircles(120, 123)}
-        </div>
+        </div> */}
         <div>
             {/* <Circle 
               sliderValue={this.state.sliderValue}
@@ -118,7 +118,7 @@ class App extends Component {
             /> */}
         </div>
         <div>
-            <DiscreteSliderSteps 
+            <DiscreteSliderSteps className="slider"
               onChange= {this.handleChange}
             />
         </div>
