@@ -17,23 +17,85 @@ code {
   width: 100;
   transition: all 1s ease;
 }
-
-.Area {
-  width: 100vw;
+.gridDiv {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 6rem 20rem 20rem 6rem;
+grid-template-areas:
+  "header header header header header"
+  "c1 c2 c3 c4 c5"
+  "c6 c7 c8 c9 c10"
+  "c11 c12 c13 c14 c15"
+  "c16 c17 c18 c19 c20"
+  "slider slider slider slider slider";
+  /* justify-content: center; */
 }
 
-.Area div {
-  display: flex;
+.gridDiv h1 {
+  grid-area: header;
+  justify-self: center;
+}
+
+.gridDiv svg {
+  justify-self: center;
+  align-self: center;
+}
+
+.gridDiv div circle {
+  transition: r 0.8s;
+}
+
+.gridDiv div svg {
+  width: 100%;
+  height: 100%;
+  /* transition: height 0.2s;
+  transition: width 0.2s; */
+}
+
+
+.gridSVG {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem 1fr;
+  grid-template-areas:
+    "header"
+    "circle";
+  justify-content: center;
+  z-index: 8;
+}
+
+.suburbCircle {
+  grid-area: circle;
+  place-self: center;
+}
+.gridSVG:hover {
+  fill: aqua;
+  color: aqua;
+}
+
+.suburbHeading {
+  grid-area: header;
+  place-self: center;
+}
+
+/* .Area {
+  width: 100vw;
+} */
+
+/* .Area div {
   justify-content: space-around;
   align-items: center;
-  height: 300px;
-  /* height: 300px;
-  width: 300px; */
+  height: 319px;
+} */
+
+.slider {
+  grid-area: slider;
+  justify-self: center;
 }
 
 .MuiSlider-sizeMedium {
   /* display: flex; */
-  justify-content: space-around;
-  margin-left: 30vw;
-  margin-right: 30vw;
+  /* justify-content: space-around; */
+  /* margin-left: 30vw;
+  margin-right: 30vw; */
 }

@@ -25,7 +25,7 @@ class DiscreteSliderSteps extends Component {
                     <Slider
                         aria-label="Small steps"
                         defaultValue={1}
-                        getAriaValueText={this.valueLabelFormat}
+                        // getAriaValueText={this.valueLabelFormat}
                         valueLabelFormat={this.valueLabelFormat}
                         step={1}
                         // value={this}

@@ -18,31 +18,68 @@ export default class AreaCircle extends Component {
 
     const state = this.props["sliderValue"];
     const ref = this.props.id;
-    console.log(Constant.suburbs);
     const array = Constant.suburbs[ref].values[0][state]
-    // console.log();
+
+
+    // const divide = Math.max(...Constant.suburbs[ref].values[0])
+    // const valuesArray = Constant.suburbs[ref].values[0]
+    // let maxValue = 0;
+    // for (const [value] of Object.entries(valuesArray)) {
+    //   if(value > maxValue) {
+    //     maxValue = value;
+    //   }
+    // }
+    // console.log(divide)
+
     
-    const value = (array / 867) * 100
+    const value = (array / 3000) * 100
     return value;
 
+    // console.log();
+  }
 
+  findName = () => {
+
+    const ref = this.props.id;
+    const array = Constant.suburbs[ref].id
+    // const value = (array / 867) * 100
+    // console.log(array);
+    return array;
   }
 
   
 
   render() {
     return (
-      // <div>
-      //   <h1>This is A title</h1>
-      //   <p>{this.findValue()}</p>
-        
-      // </div>
-      <div className="circleShape">
-        <svg xmlns="http://www.w3.org/2000/svg" width={(this.findValue()) * 2} height={(this.findValue()) * 2} version="1.1">
-            <circle cx={this.findValue()} cy={this.findValue()} r={this.findValue()}/>
-            {/* console.log({this.findValue}); */}
-        </svg>
-      </div>
+      <React.Fragment>
+        <div 
+          className={"gridSVG"}
+          onClick={this.props.onClick}
+          id={this.findName()}
+        >
+          <h5 
+            className={"suburbHeading"}
+            id={this.findName()}
+          >
+            {this.findName()}
+          </h5>
+          <svg 
+            id={this.findName()}
+            xmlns="http://www.w3.org/2000/svg" 
+            // width={(this.findValue()) * 2} 
+            // height={(this.findValue()) * 2} 
+            version="1.1" 
+            className={"suburbCircle"}
+          >
+            <circle 
+              id={this.findName()}
+              cx= "50%"
+              cy= "50%"
+              r={this.findValue()} 
+            />
+          </svg>
+        </div>
+      </React.Fragment>
     );
   }
 }
