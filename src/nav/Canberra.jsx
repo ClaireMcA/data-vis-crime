@@ -1,14 +1,13 @@
 // import logo from './logo.svg';
 import React, { Component } from "react";
-import './App.css';
+import '../App.css';
 // import AutoGrid from './components/Grid';
 // import Circle from './components/Circle';
-import AreaCircle from './components/AreaCircle';
-import DiscreteSliderSteps from './components/Slider';
-import * as Constants from './constants';
-import Navbar from './components/Navbar';
+import AreaCircle from '../components/AreaCircle';
+import DiscreteSliderSteps from '../components/Slider';
+import * as Constants from '../constants';
+import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
-import { green } from "@mui/material/colors";
 
 
 
@@ -30,18 +29,20 @@ class Canberra extends Component {
     console.log(event);
   }
 
-  // handleClick = (event) => {
-  //   // console.log(event.target.id);
-  //   const data = event.target.id;
-  //   console.log(data);
-  //   this.setState({data});
-  // }
+//   handleClick = (event) => {
+//     // console.log(event.target.id);
+//     const data = event.target.id;
+    
+
+//     this.setState({data});
+//   }
+  
+
+  
 
   renderCircles = () => {
     const elements = [];
-    // const input = this.state.data
-    const input = this.props.value
-    console.log(input)
+    const input = this.state.data
     const area = Constants.suburbAreasRef[0][input]
     // const area = Constants.suburbAreas[input]
     // console.log(area)
@@ -55,7 +56,7 @@ class Canberra extends Component {
     for (let i = m; i < n; i++) {
       const suburb = Constants.suburbs[i].id;
       elements.push(
-        <Link id={suburb} to={"/" + suburb}>
+        <Link to={"/" + suburb}>
             <AreaCircle 
             key = {suburb}
             id = {i}
@@ -68,8 +69,7 @@ class Canberra extends Component {
       // console.log(suburb)
     }
     return <React.Fragment>
-        <h1>Crime Data in Canberra</h1>
-        <h2>{input}</h2>
+        <h1>{this.state.data}</h1>
         {elements}
       </React.Fragment>;
     
@@ -78,14 +78,7 @@ class Canberra extends Component {
 
   render () {
     return (
-      <div className="gridDiv gridDiv-canberra">
-        <div class="empty-div"></div>
-        <div class="empty-div-2"></div>
-        <div class="empty-div-3"></div>
-        <div class="empty-div-4"></div>
-
-        <div class="header-box"></div>
-        <img class="canberra-img" src={"/canberra-2.png"} />
+      <div className="gridDiv">
         {this.renderCircles()}
           <div className="slider">
             <DiscreteSliderSteps

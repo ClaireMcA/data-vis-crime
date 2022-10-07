@@ -202,7 +202,7 @@ export const suburbAreasRef = [
 export const suburbAreas = [
     {
         id: "GREATERBELCONNEN",
-        range: {m: 0, n:24},
+        range: {m: 0, n:25},
         values: [
             {
                 "14_Q1": 2577,
@@ -241,7 +241,7 @@ export const suburbAreas = [
     },
     {
         id: "GREATERGUNGAHLIN",
-        range: {m: 25, n:43},
+        range: {m: 26, n:43},
         values: [
             {
                 "14_Q1":1089,

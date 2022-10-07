@@ -1,19 +1,19 @@
 // import logo from './logo.svg';
 import React, { Component } from "react";
-import './App.css';
+import '../App.css';
 // import AutoGrid from './components/Grid';
 // import Circle from './components/Circle';
-import AreaCircle from './components/AreaCircle';
-import DiscreteSliderSteps from './components/Slider';
-import * as Constants from './constants';
-import Navbar from './components/Navbar';
+import AreaCircle from '../components/AreaCircle';
+import DiscreteSliderSteps from '../components/Slider';
+import * as Constants from '../constants';
+import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 import { green } from "@mui/material/colors";
 
 
 
 
-class Canberra extends Component {
+class Belconnen extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -78,14 +78,14 @@ class Canberra extends Component {
 
   render () {
     return (
-      <div className="gridDiv gridDiv-canberra">
+      <div className="gridDiv gridDiv-belconnen">
         <div class="empty-div"></div>
-        <div class="empty-div-2"></div>
+        {/* <div class="empty-div-2"></div>
         <div class="empty-div-3"></div>
-        <div class="empty-div-4"></div>
-
+        <div class="empty-div-4"></div> */}
+        
         <div class="header-box"></div>
-        <img class="canberra-img" src={"/canberra-2.png"} />
+        {/* <img class="belconnen-img" src={"/belconnen.png"} /> */}
         {this.renderCircles()}
           <div className="slider">
             <DiscreteSliderSteps
@@ -98,4 +98,4 @@ class Canberra extends Component {
 }
 
 
-export default Canberra;
+export default Belconnen;

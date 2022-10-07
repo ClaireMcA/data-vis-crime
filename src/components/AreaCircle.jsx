@@ -38,6 +38,13 @@ export default class AreaCircle extends Component {
     // console.log();
   }
 
+  findCount = () => {
+    const state = this.props["sliderValue"];
+    const ref = this.props.id;
+    const array = Constant.suburbs[ref].values[0][state]
+    return array
+  }
+
   findName = () => {
 
     const ref = this.props.id;
@@ -54,7 +61,7 @@ export default class AreaCircle extends Component {
       <React.Fragment>
         <div 
           className={"gridSVG"}
-          onClick={this.props.onClick}
+          // onClick={this.props.onClick}
           id={this.findName()}
         >
           <h5 
@@ -62,12 +69,12 @@ export default class AreaCircle extends Component {
             id={this.findName()}
           >
             {this.findName()}
+            <br/>
+            {this.findCount()}
           </h5>
           <svg 
             id={this.findName()}
             xmlns="http://www.w3.org/2000/svg" 
-            // width={(this.findValue()) * 2} 
-            // height={(this.findValue()) * 2} 
             version="1.1" 
             className={"suburbCircle"}
           >
